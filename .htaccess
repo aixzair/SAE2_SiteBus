@@ -1,0 +1,2 @@
+Options -Indexes
+ErrorDocument 404 /ils_etaient_neuf/errors/404.php

@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2f2f2;
+  font-family: "Montserrat", sans-serif;
+}
+
+.menuClient {
+  display: flex;
+  padding: 0;
+  background-color: #f44336;
+  width: 100%;
+}
+
+.menuClient li {
+  list-style-type: none;
+  background-color: #d32f2f;
+  flex: 1;
+}
+
+.menuClient a {
+  display: block;
+  padding: 1rem;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.menuClient li:hover {
+  background-color: #1976d2;
+  color: #ffffff;
+  transition: all 0.5s ;
+}
+
+.menuClient li.actif {
+  background-color: #b71c1c;
+}
+
+.menuClient li.actif:hover {
+  background-color:#b71c1c;
+}
+
+.connexion,
+.deconnexionClient {
+  display: block;
+  background-color: #d32f2f;
+  border-color: #c21807;
+  cursor: pointer;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.connexion:hover,
+.deconnexionClient:hover {
+  background-color: #c21807;
+  transition: all 0.5s ;
+}
+
+.menuAdmin {
+  display: flex;
+  padding: 0;
+  background-color: #1976d2;
+  width: 100%;
+}
+
+.menuAdmin li {
+  list-style-type: none;
+  background-color: #1565c0;
+  flex: 1;
+}
+
+.menuAdmin a {
+  display: block;
+  padding: 1rem;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.menuAdmin li:hover {
+  background-color: #f44336;
+  color: #ffffff;
+  transition: all 0.5s ;
+}
+
+.menuAdmin li.actif {
+  background-color: #0e4788;
+}
+
+.menuAdmin li.actif:hover {
+  background-color: #0e4788;
+}
+
+.deconnexionAdmin {
+  display: block;
+  background-color: #1565c0;
+  border-color: #0f59c7;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.deconnexionAdmin:hover {
+  background-color: #0f59c7;
+  transition: all 0.5s ;
+}

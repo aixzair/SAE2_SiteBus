@@ -1,0 +1,126 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.tab {
+    width: 95%;
+    margin: auto;
+    padding: 25px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.tab th,
+.tab td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.tab .row.header {
+    background-color: #f9f9f9;
+}
+
+.tab .cell {
+    text-align: center;
+}
+
+.tab .btn {
+    padding: 6px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.tab .btn-primary {
+    background-color: #007bff;
+}
+
+.tab .btn-warning {
+    background-color: #ffc107;
+}
+
+.tab .btn-danger {
+    background-color: #dc3545;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+.container label, input {
+  padding: 5px;
+}
+
+.title {
+    color: #e7151c;
+    font-weight: bold;
+}
+  
+  .container input[type="text"],
+  .container input[type="tel"],
+  .container input[type="password"], 
+  .container input[type="mail"],
+  .container select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    background-color: white;
+  }
+  
+  .container small {
+    color: #ff0000;
+  }
+  
+  .container button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #1565c0;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .container button[type="button"] {
+    padding: 10px 20px;
+    background-color: #1565c0;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .container button[type="submit"]:hover {
+    background-color: #f44336;
+  }
+
+  .container button[type="submit"]:active {
+      background-color: #ce352a;
+  }
+
+  .container button[type="button"]:hover {
+    background-color: #f44336;
+  }
+
+  .container button[type="button"]:active {
+    background-color: #ce352a;
+}
